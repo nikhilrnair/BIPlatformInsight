@@ -15,7 +15,7 @@ body, html {height: 100%}
 body{opacity:1!important;overflow-y:hidden;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent;background-color:var(--nbodybg);color:var(--nbodytxtcolor);font-family:Inter;font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);margin:0}
 .cMainBodyWrapper{align-items:stretch;display:flex;width:100%}
 
-/* Navigation */
+/* Navigation  */
 span{vertical-align:middle!important}
 a{text-decoration:none;cursor:pointer}
 li ul{list-style-type:none;margin:0;padding-left:.1rem;padding-bottom:0;padding-top:0}
