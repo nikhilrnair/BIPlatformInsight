@@ -1,1 +1,1 @@
-# BIPlatformInsight
+# BI Platform Insight
