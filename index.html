@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+   <meta name="description" content="BI Platform Insight is a free, lightweight web app that seamlessly integrates with SAP BusinessObjects, providing comprehensive metadata extraction for enhanced decision-making and efficient platform management"/>
+   <meta name="author" content="Nikhil Nair" />
+   <meta name="keywords" content="BIPI, BI Platform Insight, RestFul API, BOBJ, SAP BusinessObjects BI Platform,nn"/>
+   <!-- <link rel="shortcut icon" href="img/favicon.png" /> -->
+   <title>BI Platform Insight</title>
+   <link href="css/style.css" rel="stylesheet" />
+   <script src="js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+   <div class="cMainBodyWrapper">
+      <nav>
+         <div>
+            <ul>
+               <li>
+                  <a>Servers</a>
+                  <ul>
+                     <li><a id="iServerStatusLink" href="#">Status</a></li>
+                     <li><a id="iServerCommandLineLink" href="#">Command Line</a></li>
+                     <li><a id="iServerAPSLink" href="#">Adaptive Processing Servers (APS)</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a>Universes</a>
+                  <ul>
+                     <li><a id="iAllUNXLink" href="#">UNX</a></li>
+                     <li><a id="iAllUNVLink" href="#">UNV</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a>Connections</a>
+                  <ul>
+                     <li><a id="iAllRelConLink" href="#">Relational</a></li>
+                     <li><a id="iAllBAPILink" href="#">BAPI (BW)</a></li>
+                     <li><a id="iAllOLAPLink" href="#">OLAP</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a>Authentication</a>
+                  <ul>
+                     <li><a id="iAllHANASAMLAuthLink" href="#">HANA SAML Connections</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="cMainSection">
+         <nav class="cHeader cHeaderStruct">
+            <div class="cNavigationPanelToggle"><a id="iNavigationPanelToggle"></a></div>
+            <div class="cHeaderContent">
+               <form id="iLoginForm" class="cLoginForm">
+                  <input type="text" id="iUsername" name="username" value="administrator" autocomplete="on" placeholder="Enter User Name">
+                  <input type="password" id="iPassword" name="password" placeholder="Enter Password">					
+                  <button type="button" id="iLogOnBtn">Log On</button>											
+               </form>
+               <div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+               <div id="iCMSName"></div>
+               <div id="iLogOffBtn">Log Out</div>
+            </div>
+         </nav>
+         <main class="cContent">
+            <div class="cContentStruct">
+            </div>
+         </main>
+      </div>
+   </div>
+   <script src="js/main.js"></script>
+</body>
+</html>
